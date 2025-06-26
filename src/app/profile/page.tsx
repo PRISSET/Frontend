@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+import WeatherWidget from '../../components/WeatherWidget'
 
 interface User {
   id: string
